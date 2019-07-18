@@ -44,7 +44,7 @@
           <div class="card-body">
             <h3 class="card-title"><b>LEARNING LESSONS</b></h3>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><a href="#" class="btn btn-primary">Go readmore</a></p>
+            <p class="card-text"><a href="/mailSender.htm" class="btn btn-primary">Go readmore</a></p>
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@
           <div class="card-body">
             <h3 class="card-title"><b>ACTIVITIES EVENTS</b></h3>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><p class="card-text"><a href="#" class="btn btn-primary">Go readmore</a></p></p>
+            <p class="card-text"><p class="card-text"><a href="/mailSender.htm" class="btn btn-primary">Go readmore</a></p></p>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@
           <div class="card-body">
             <h3 class="card-title"><b>ATTENDANCE RECORDS</b></h3>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><a href="#" class="btn btn-primary">Go readmore</a></p>
+            <p class="card-text"><a href="/mailSender.htm" class="btn btn-primary">Go readmore</a></p>
           </div>
         </div>
       </div>

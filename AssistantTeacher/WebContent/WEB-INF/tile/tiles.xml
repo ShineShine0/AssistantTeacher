@@ -31,5 +31,135 @@
 		<put-attribute name="title" value="" />
 		<put-attribute name="body" value="/WEB-INF/views/booking.jsp" />
 	</definition>
+	<definition name="teacherManagement" extends="base.definition">
+		<put-attribute name="title" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/teacherManagement.jsp" />
+	</definition>
+	<definition name="teacher_list" extends="base.definition">
+		<put-attribute name="title" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/teacher_list.jsp" />
+	</definition>
+	<definition name="emailForm" extends="base.definition">
+		<put-attribute name="title" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/emailForm.jsp" />
+	</definition>
+	<definition name="studentNameSearch" extends="base.definition">
+		<put-attribute name="title" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/studentNameSearch.jsp" />
+	</definition>
+	
+	<definition name="room_list" extends="base.definition">
+		<put-attribute name="title" value="Room List" />
+		<put-attribute name="body" value="/WEB-INF/views/room/room_list.jsp" />
+	</definition>
+	<definition name="new_room" extends="base.definition">
+		<put-attribute name="title" value="Room List" />
+		<put-attribute name="body" value="/WEB-INF/views/room/new_room.jsp" />
+	</definition>
+	<definition name="new_teacher" extends="base.definition">
+		<put-attribute name="title" value="Teacher List" />
+		<put-attribute name="body" value="/WEB-INF/views/teacher/new_teacher.jsp" />
+	</definition>
+	<definition name="teacher_list" extends="base.definition">
+		<put-attribute name="title" value="Teacher List" />
+		<put-attribute name="body" value="/WEB-INF/views/teacher/teacher_list.jsp" />
+	</definition>
+	<definition name="student_list" extends="base.definition">
+		<put-attribute name="title" value="Student List" />
+		<put-attribute name="body" value="/WEB-INF/views/student/student_list.jsp" />
+	</definition>
+	<definition name="new_student" extends="base.definition">
+		<put-attribute name="title" value="Student List" />
+		<put-attribute name="body" value="/WEB-INF/views/student/new_student.jsp" />
+	</definition>
+	<definition name="new_attendance" extends="base.definition">
+		<put-attribute name="title" value="Attendance List" />
+		<put-attribute name="body" value="/WEB-INF/views/attendance/new_attendance.jsp" />
+	</definition>
+	<definition name="attendance_list" extends="base.definition">
+		<put-attribute name="title" value="Attendance List" />
+		<put-attribute name="body" value="/WEB-INF/views/attendance/attendance_list.jsp" />
+	</definition>
+	<definition name="subject_list" extends="base.definition">
+		<put-attribute name="title" value="Subject List" />
+		<put-attribute name="body" value="/WEB-INF/views/subject/subject_list.jsp" />
+	</definition>
+	<definition name="new_subject" extends="base.definition">
+		<put-attribute name="title" value="Subject List" />
+		<put-attribute name="body" value="/WEB-INF/views/subject/new_subject.jsp" />
+	</definition>
+	
+	<definition name="new_admin" extends="base.definition">
+		<put-attribute name="title" value="Admin List" />
+		<put-attribute name="body" value="/WEB-INF/views/admin/new_admin.jsp" />
+	</definition>
+	<definition name="admin_list" extends="base.definition">
+		<put-attribute name="title" value="Admin List" />
+		<put-attribute name="body" value="/WEB-INF/views/admin/admin_list.jsp" />
+	</definition>
+	<definition name="new_book" extends="base.definition">
+		<put-attribute name="title" value="Book List" />
+		<put-attribute name="body" value="/WEB-INF/views/book/new_book.jsp" />
+	</definition>
+	<definition name="book_list" extends="base.definition">
+		<put-attribute name="title" value="Book List" />
+		<put-attribute name="body" value="/WEB-INF/views/book/book_list.jsp" />
+	</definition>
+	<definition name="new_bookOrder" extends="base.definition">
+		<put-attribute name="title" value="BookOrder List" />
+		<put-attribute name="body" value="/WEB-INF/views/bookOrder/new_bookOrder.jsp" />
+	</definition>
+	<definition name="bookOrder_list" extends="base.definition">
+		<put-attribute name="title" value="BookOrder List" />
+		<put-attribute name="body" value="/WEB-INF/views/bookOrder/bookOrder_list.jsp" />
+	</definition>
+	<definition name="lessonPlan_list" extends="base.definition">
+		<put-attribute name="title" value="lessonPlan" />
+		<put-attribute name="body" value="/WEB-INF/views/lessonPlan/lessonPlan_list.jsp" />
+	</definition>
+	<definition name="new_LessonPlan" extends="base.definition">
+		<put-attribute name="title" value="lessonPlan" />
+		<put-attribute name="body" value="/WEB-INF/views/lessonPlan/new_LessonPlan.jsp" />
+	</definition>
+	<definition name="new_major" extends="base.definition">
+		<put-attribute name="title" value="Major" />
+		<put-attribute name="body" value="/WEB-INF/views/major/new_major.jsp" />
+	</definition>
+	<definition name="major_list" extends="base.definition">
+		<put-attribute name="title" value="Major" />
+		<put-attribute name="body" value="/WEB-INF/views/major/major_list.jsp" />
+	</definition>
+	<definition name="new_activities" extends="base.definition">
+		<put-attribute name="title" value="Activities" />
+		<put-attribute name="body" value="/WEB-INF/views/activities/new_activities.jsp" />
+	</definition>
+	<definition name="activities_list" extends="base.definition">
+		<put-attribute name="title" value="Activities" />
+		<put-attribute name="body" value="/WEB-INF/views/activities/activities_list.jsp" />
+	</definition>
+	<definition name="new_attendanceResult" extends="base.definition">
+		<put-attribute name="title" value="AttendanceResult" />
+		<put-attribute name="body" value="/WEB-INF/views/AttendanceResult/new_attendanceResult.jsp" />
+	</definition>
+	<definition name="attendanceResult_list" extends="base.definition">
+		<put-attribute name="title" value="AttendanceResult" />
+		<put-attribute name="body" value="/WEB-INF/views/AttendanceResult/attendanceResult_list.jsp" />
+	</definition>
+	<definition name="new_lessonPlanFile" extends="base.definition">
+		<put-attribute name="title" value="LessonPlanFile" />
+		<put-attribute name="body" value="/WEB-INF/views/lessonPlanFile/new_lessonPlanFile.jsp" />
+	</definition>
+	<definition name="lessonPlanFile_list" extends="base.definition">
+		<put-attribute name="title" value="LessonPlanFile" />
+		<put-attribute name="body" value="/WEB-INF/views/lessonPlanFile/lessonPlanFile_list.jsp" />
+	</definition>
+	<definition name="new_orderBookItem" extends="base.definition">
+		<put-attribute name="title" value="OrderBookItem" />
+		<put-attribute name="body" value="/WEB-INF/views/orderBookItem/new_orderBookItem.jsp" />
+	</definition>
+	<definition name="orderBookItem_list" extends="base.definition">
+		<put-attribute name="title" value="OrderBookItem" />
+		<put-attribute name="body" value="/WEB-INF/views/orderBookItem/orderBookItem_list.jsp" />
+	</definition>
 </tiles-definitions>
 	

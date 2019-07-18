@@ -47,7 +47,7 @@
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/assistantteacher?useUnicode=true&amp;characterEncoding=UTF-8&amp;characterSetResults=UTF-8" />
+		<property name="url" value="jdbc:mysql://localhost:3306/assistantteacher_db?useUnicode=true&amp;characterEncoding=UTF-8&amp;characterSetResults=UTF-8" />
 		<property name="username" value="root" />
 		<property name="password" value="root" />
 	</bean>
@@ -112,8 +112,8 @@
 	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
 		<property name="host" value="smtp.gmail.com" />
 		<property name="port" value="587" />
-		<property name="username" value="infoava123@gmail.com" />
-		<property name="password" value="infoava12345" />
+		<property name="username" value="TeachingHelper80@gmail.com" />
+		<property name="password" value="TeachingHelper11" />
 		<property name="javaMailProperties">
 			<props>
 				<prop key="mail.debug">true</prop>

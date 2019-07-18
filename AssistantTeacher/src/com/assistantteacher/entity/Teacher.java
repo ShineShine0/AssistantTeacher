@@ -21,6 +21,12 @@ public class Teacher implements Serializable {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long id;
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
 	@Column(name="Name")
 	private String name;
 	@Column(name="Email")
@@ -31,12 +37,7 @@ public class Teacher implements Serializable {
 	private String role;
 	@Column(name="Phone No")
 	private String phno;
-	public long getId() {
-		return id;
-	}
-	public void setId(long id) {
-		this.id = id;
-	}
+	
 	public String getName() {
 		return name;
 	}

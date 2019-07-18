@@ -116,96 +116,22 @@
       	<b><i class="icon icon-home" style="color: white"  ></i> 
       	<span style="color: white" style="font-weight: bold;"  >TEACHER PART</span>
       	</b>
-    	<span class="label label-important">5</span></a>
+    	<span class="label label-important">3</span></a>
     </li>
     
 
-    <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i> <span>FIRST YEAR</span> 
-    	<span class="label label-important"></span></a>
-    	 <ul>
-      <li><a href="home.htm">CLASSROOM A</a></li>
-        <li><a href="home.htm">CLASSROOM B</a></li>
-        <li><a href="home.htm">CLASSROOM C</a></li>
-        <li><a href="home.htm">CLASSROOM D</a></li>
-      </ul></li>
-    	 <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i> <span>SECOND YEAR</span> 
-    	 	<span class="label label-important"></span></a>
-    	 	 <ul>
-    	 	 	 <li class='sub_menu' style="background-color: #133256  !important;"><a href="#"><span>SECOND YEAR CS</span></a>
-	    	 	<ul style="display:none;">
-      <li><a href="home.htm">CLASSROOM A</a></li>
-        <li><a href="home.htm">CLASSROOM B</a></li>
-        <li><a href="home.htm">CLASSROOM C</a></li>
-        <li><a href="home.htm">CLASSROOM D</a></li>
-      </ul></li>
-       <li class='sub_menu' style="background-color: #133256;"><a href="#"><span>SECOND YEAR CT</span></a>
-	    	 	<ul style="display:none;">
-	    	 		<li><a href="home.htm"><span>CLASSROOM </span></a></li>
-	         
-	    	 	</ul>
-	    	 </li>
-    	 </ul>
-      </li>
-      
-    	 	 <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i> <span>THIRD YEAR</span> 
-    	 	 	<span class="label label-important"></span></a>
-    	 	 	 <ul>
-    	 	 	  	 <li class='sub_menu' style="background-color: #133256  !important;"><a href="#"><span>THIRD YEAR CS</span></a>
-	    	 	<ul style="display:none;">
-        <li><a href="home.htm">CLASSROOM A</a></li>
-        <li><a href="home.htm">CLASSROOM B</a></li>
-        <li><a href="home.htm">CLASSROOM C</a></li>
-        <li><a href="home.htm">CLASSROOM D</a></li>
-      </ul></li>
-        <li class='sub_menu' style="background-color: #133256;"><a href="#"><span>THIRD YEAR CT</span></a>
-	    	 	<ul style="display:none;">
-	    	 		<li><a href="home.htm"><span>CLASSROOM </span></a></li>
-	         
-	    	 	</ul>
-	    	 </li>
-    	 </ul>
-      </li>
-      
-      
-    	 	 	 <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i> <span>FOURTH YEAR</span> 
-    	 	 	 	<span class="label label-important"></span></a>
-    	 	 	 	 <ul>
-    	 	 	 	  	 <li class='sub_menu' style="background-color: #133256  !important;"><a href="#"><span>FOURTH YEAR CS</span></a>
-	    	 	<ul style="display:none;">
-        <li><a href="home.htm">CLASSROOM A</a></li>
-        <li><a href="home.htm">CLASSROOM B</a></li>
-        <li><a href="home.htm">CLASSROOM C</a></li>
-        <li><a href="home.htm">CLASSROOM D</a></li>
-      </ul></li>
-      
-       <li class='sub_menu' style="background-color: #133256;"><a href="#"><span>FOURTH YEAR CT</span></a>
-	    	 	<ul style="display:none;">
-	    	 		<li><a href="home.htm"><span>CLASSROOM </span></a></li>
-	         
-	    	 	</ul>
-	    	 </li>
-    	 </ul>
-      </li>
-      
-    	 	 	 	 <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i> <span>FIFTH YEAR</span> 
-     <span class="label label-important"></span></a>
-      <ul>
-       <li class='sub_menu' style="background-color: #133256  !important;"><a href="#"><span>FIFTH YEAR CS</span></a>
-	    	 	<ul style="display:none;">
-        <li><a href="home.htm">CLASSROOM A</a></li>
-        <li><a href="home.htm">CLASSROOM B</a></li>
-        <li><a href="home.htm">CLASSROOM C</a></li>
-        <li><a href="home.htm">CLASSROOM D</a></li>
-      </ul>
+    <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i> <span>Teachings </span> 
+    	
     </li>
-     <li class='sub_menu' style="background-color: #133256;"><a href="#"><span>FIFTH YEAR CT</span></a>
-	    	 	<ul style="display:none;">
-	    	 		<li><a href="home.htm"><span>CLASSROOM </span></a></li>
-	         
-	    	 	</ul>
-	    	 </li>
-    	 </ul>
+    	 <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i> <span>Activities</span> 
+    	 	
       </li>
+       <li class='sub_menu' style="background-color: #133256;"><a href="#"><span>Attendance</span></a>
+	    	 	
+	    	 </li>
+    	
+    	 	
+ 
     <li class="bg_lb"  ><a href="#"style="font-size:large; " ><b><i class="icon icon-home" style="color: white"  ></i> <span style="color: white" " style=font-weight: bold;  >BUYING BOOKS</span></b>
     	<span class="label label-important"></span></a>
     </li>

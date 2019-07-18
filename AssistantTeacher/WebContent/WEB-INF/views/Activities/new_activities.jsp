@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h3>Welcome from computer university</h3>
+
 </body>
 </html>

@@ -15,6 +15,8 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.assistantteacher.dto.RoomDto;
+
 @Entity
 @Table(name="Subject")
 
@@ -82,6 +84,7 @@ public class Subject implements Serializable {
 	public void setYear(Year year) {
 		this.year = year;
 	}
+	
 	
 	
 
