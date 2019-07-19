@@ -6,27 +6,10 @@
 <title>TeachingAssistantSystem</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="<c:url value='/resources/template/css/bootstrap.css'/>" />
-<link rel="stylesheet" href="<c:url value='/resources/template/css/bootstrap-responsive.min.css'/>" />
-<link rel="stylesheet" href="<c:url value='/resources/template/css/fullcalendar.css'/>" />
-<link rel="stylesheet" href="<c:url value='/resources/template/css/matrix-style.css'/>" />
-<link rel="stylesheet" href="<c:url value='/resources/template/css/matrix-media.css'/>" />
-<link href="<c:url value='resources/template/font-awesome/css/font-awesome.css" rel="stylesheet'/>" />
-<link
-	href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800'
-	rel='stylesheet' type='text/css'>
-<style>
-
-ul, ol {
-    padding: 0;
-    margin: 0 0 10px 0px !important;
-}
-</style>
 </head>
 
 <body>
 	<tiles:insertAttribute name="header" />
-	<tiles:insertAttribute name="leftMenu" />
 	<input type="hidden" id="pageContext" value="<c:url value='/'/>" />
 	<tiles:insertAttribute name="body" />
 	<tiles:insertAttribute name="footer" />
@@ -36,26 +19,42 @@ ul, ol {
 
 </body>
 <!--end-Footer-part-->
-<script src="<c:url value='/resources/template/js/excanvas.min.js'/>"></script>
-<script src="<c:url value='/resources/template/js/jquery.min.js'/>"></script>
-<script src="<c:url value='/resources/template/js/jquery.ui.custom.js'/>"></script>
-<script src="<c:url value='/resources/template/js/bootstrap.min.js'/>"></script>
-<script src="<c:url value='/resources/template/js/jquery.flot.min.js'/>"></script>
-<script src="<c:url value='/resources/template/js/jquery.flot.resize.min.js'/>"></script>
-<script src="<c:url value='/resources/template/js/jquery.peity.min.js'/>"></script>
-<script src="<c:url value='/resources/template/js/matrix.js'/>"></script>
-<script src="<c:url value='/resources/template/js/fullcalendar.min.js'/>"></script>
-<script src="<c:url value='/resources/template/js/matrix.calendar.js'/>"></script>
-<script src="<c:url value='/resources/template/js/matrix.chat.js'/>"></script>
-<script src="<c:url value='/resources/template/js/jquery.validate.js'/>"></script>
-<script src="<c:url value='/resources/template/js/matrix.form_validation.js'/>"></script>
-<script src="<c:url value='/resources/template/js/jquery.wizard.js'/>"></script>
-<script src="<c:url value='/resources/template/js/jquery.uniform.js'/>"></script>
-<script src="<c:url value='/resources/template/js/select2.min.js'/>"></script>
-<script src="<c:url value='/resources/template/js/matrix.popover.js'/>"></script>
-<script src="<c:url value='/resources/template/js/jquery.dataTables.min.js'/>"></script>
-<script src="<c:url value='/resources/template/js/matrix.tables.js'/>"></script>
-<script src="<c:url value='/resources/template/js/matrix.interface.js'/>"></script>
+
+<link href="<c:url value='/resources/assets/css/linearicons.css'/>" rel="stylesheet" >
+			<link href="<c:url value='/resources/assets/css/font-awesome.min.css'/>" rel="stylesheet" >
+			<link href="<c:url value='/resources/assets/css/bootstrap.css'/>" rel="stylesheet" >
+			<link href="<c:url value='/resources/assets/css/magnific-popup.css'/>" rel="stylesheet" >
+			<link href="<c:url value='/resources/assets/css/nice-select.css'/>" rel="stylesheet" >
+			<link href="<c:url value='/resources/assets/css/animate.min.css'/>" rel="stylesheet" >		
+			<link href="<c:url value='/resources/assets/css/owl.carousel.css'/>" rel="stylesheet" >				
+			<link href="<c:url value='/resources/assets/css/jquery-ui.css' />" rel="stylesheet" >
+			<link href="<c:url value='/resources/assets/css/main.css' />" rel="stylesheet" >
+			<link href="<c:url value='/resources/assets/css/w3.css'/>" rel="stylesheet" >
+			<script src="<c:url value='/resources/assets/js/vendor/jquery-2.2.4.min.js' />"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="<c:url value='/resources/assets/js/vendor/bootstrap.min.js' />"></script>
+				
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			
+  			<script src="<c:url value='/resources/assets/js/jquery.easing.min.js' />"></script>			
+			
+			<script src="<c:url value='/resources/assets/js/hoverIntent.js' />"></script>
+			
+			<script src="<c:url value='/resources/assets/js/superfish.min.js' />"></script>
+				
+			<script src="<c:url value='/resources/assets/js/jquery.ajaxchimp.min.js' />"></script>
+		
+			<script src="<c:url value='/resources/assets/js/jquery.magnific-popup.min.js' />"></script>	
+    			
+    		<script src="<c:url value='/resources/assets/js/jquery.tabs.min.js' />"></script>					
+	
+			<script src="<c:url value='/resources/assets/js/jquery.nice-select.min.js' />"></script>
+			
+			<script src="<c:url value='/resources/assets/js/owl.carousel.min.js' />"></script>								
+			
+			<script src="<c:url value='/resources/assets/js/mail-script.js' />"></script>	
+			
+			<script src="<c:url value='/resources/assets/js/main.js' />"></script>
 <script type="text/javascript">
   // This function is called from the pop-up menus to transfer to
   // a different page. Ignore if the value returned is a null string:

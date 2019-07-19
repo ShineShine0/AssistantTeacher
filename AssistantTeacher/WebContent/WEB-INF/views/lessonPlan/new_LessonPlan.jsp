@@ -28,7 +28,7 @@
 				<!-- <div class="row"
 				style="border: 1px solid #00bcd4a3; margin-left: 1px; margin-right: 1px;margin-top:5px;"> -->
 				<form:form commandName="lessonPlanDto" class="form-horizontal"
-					action="${pageContext.request.contextPath}/addMembers.htm"
+					action="${pageContext.request.contextPath}/addPlan.htm"
 					role="form" method="POST">
 					<div class="form-group">
 

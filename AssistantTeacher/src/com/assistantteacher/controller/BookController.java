@@ -7,17 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.assistantteacher.dto.BookDto;
 import com.assistantteacher.service.BookService;
-import com.assistantteacher.service.YearServices;
 @Controller
 @RequestMapping(value="/book")
 public class BookController {
-	
-
 		@Autowired
 		BookService bookService;
-		@Autowired
-		YearServices yearServices;
-		
 		@RequestMapping(value="/book_list.htm")
 		public String index(Model model){
 			model.addAttribute("bookList", bookService.getBookList());
@@ -25,11 +19,8 @@ public class BookController {
 		}
 		@RequestMapping(value="/new_book.htm")
 		public String createRoom(Model model){
-			
-			model.addAttribute("yearList", yearServices);
 			model.addAttribute("bookDto", new BookDto());
 			return "new_book";
-		}
-
+		}		
 }
 

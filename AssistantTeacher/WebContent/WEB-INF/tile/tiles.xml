@@ -7,7 +7,6 @@
 	<definition name="base.definition" template="/WEB-INF/layout/layout.jsp">
 		<put-attribute name="title" value="Teaching Assistant System" />
 		<put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
-		<put-attribute name="leftMenu" value="/WEB-INF/layout/leftMenu.jsp" />
 		<put-attribute name="body" value="" />
 		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
 	</definition>
@@ -17,6 +16,19 @@
 		<put-attribute name="leftMenu" value="" />
 		<put-attribute name="body" value="" />
 		<put-attribute name="footer" value="" />
+	</definition>
+	
+	<definition name="left.definition" template="/WEB-INF/views/admin/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/admin/header.jsp" />
+		<put-attribute name="left" value="/WEB-INF/views/admin/left_panel.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	
+	<definition name="adminwelcome" extends="left.definition">
+			<put-attribute name="title" value="" />
+			<put-attribute name="body" value="/WEB-INF/views/admin/admin_welcome.jsp" />
 	</definition>
 
 	<definition name="adminLogin" extends="login.definition">

@@ -27,6 +27,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.assistantteacher.service.UserServices;
+import com.assistantteacher.util.SecurityUtil;
 
 
 
@@ -39,10 +40,17 @@ public class MainController {
 	public String loginWelcome(Model model) {
 		return "adminLogin";
 	}
+	
 	@RequestMapping(value = "/home.htm")
 	public String homeWelcome(Model model) {
+		String name = SecurityUtil.getCurrentLoginAdminUser().getName();
+		model.addAttribute("userName", name);
 		return "home";
 	}
 	
+	@RequestMapping(value="/admin_welcome.htm")
+	public String showAdmin(Model model) {
+		return "adminwelcome";
+	}
 }
 
